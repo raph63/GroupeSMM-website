@@ -351,7 +351,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #1cb495 !important;
+			color: #26aae2 !important;
 			text-decoration: none;
 		}
 
@@ -601,7 +601,7 @@
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
-			height: 2.75em;
+			height: 3em;
 			line-height: 2.75em;
 			opacity: 0;
 		}
@@ -790,7 +790,7 @@
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #1cb495;
+			border-color: #005a96;
 		}
 
 	.select-wrapper {
@@ -830,7 +830,7 @@
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: 2.75em;
+		height: 3em;
 	}
 
 	textarea {
@@ -952,15 +952,15 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #1cb495;
+		background-color: #005a96;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
-		height: 2.75em;
-		line-height: 2.75em;
+		height: 2.25em;
+		line-height: 2.25em;
 		padding: 0 1.125em;
 		text-align: center;
 		text-decoration: none;
@@ -972,7 +972,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1fcaa7;
+			background-color: #26aae2;
 		}
 
 		input[type="submit"]:active,
@@ -980,7 +980,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #199e83;
+			background-color: #005a96;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -1043,6 +1043,20 @@
 
 	}
 
+	#plus-infos p {
+		font-size: 1.00em;
+		line-height: 1.65em;
+		color: rgba(255, 255, 255, 0.5);
+		margin: 0.4em 0 1.5em 0; 
+	}
+	#plus-infos a {
+		color: inherit;
+	}
+
+	#mc_embed_signup {
+		margin: 0 0 10em 0;
+	}
+
 /* Signup Form */
 
 	#signup-form {
@@ -1057,6 +1071,7 @@
 		#signup-form input[type="password"],
 		#signup-form input[type="email"] {
 			width: 18em;
+			height: 2.2em;
 		}
 
 		#signup-form > * {
@@ -1097,6 +1112,10 @@
 				}
 
 		}
+
+	.mc-field-group {
+		margin-bottom: 1.5em;
+	}
 
 /* Footer */
 
